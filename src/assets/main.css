@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Mac';
+    src: url(/fonts/blinkmacsystemfont-regular.otf);
+}
+
+@font-face {
+    font-family: 'Styr';
+    src: url(/fonts/styrenealc-regular.otf);
+}
+
+
+
+
+
+
+
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mac';
+    src: url(/fonts/blinkmacsystemfont-regular.otf);
+    background-color: #040200;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 38px;
+}

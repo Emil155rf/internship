@@ -1,0 +1,56 @@
+<script>
+export default {
+    props: {
+        title: String,
+        description: String,
+    }
+}
+
+</script>
+
+
+<template>
+    <div class="intern-list">
+        <ul>
+            <div class="list-1">
+                <h1>{{ title }}</h1>
+                <p>{{ description }}</p>
+            </div>
+        </ul>
+    </div>
+
+
+
+</template>
+
+
+
+<style scoped>
+.intern-list {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+h1 {
+    font-family: 'Mac';
+    font-weight: 800;
+    font-size: 25px;
+    white-space: nowrap;
+}
+p {
+    font-size: 16px;
+
+}
+.list-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1em;
+    padding: 20px 0;
+    width: 40em;
+    border-top: 2px solid hsla(0, 0%, 100%, .94);
+    border-bottom: 2px solid hsla(0, 0%, 100%, .94); 
+
+}
+</style>
