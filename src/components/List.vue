@@ -32,11 +32,14 @@ export default {
     overflow: hidden;
 
 }
+ul {
+    margin: 0; 
+    padding: 0;
+}
 h1 {
     font-family: 'Mac';
     font-weight: 800;
     font-size: 25px;
-    white-space: nowrap;
 }
 p {
     font-size: 16px;
@@ -48,9 +51,11 @@ p {
     justify-content: center;
     margin-top: 1em;
     padding: 20px 0;
-    width: 40em;
-    border-top: 2px solid hsla(0, 0%, 100%, .94);
-    border-bottom: 2px solid hsla(0, 0%, 100%, .94); 
+    /* width: 40em; */
+    /* border-top: 2px solid hsla(0, 0%, 100%, .94); */
+    /* border-bottom: 2px solid hsla(0, 0%, 100%, .94);  */
 
 }
+
+
 </style>

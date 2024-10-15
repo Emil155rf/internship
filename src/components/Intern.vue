@@ -31,6 +31,8 @@ h1 {
     font-family: 'Mac';
     font-weight: 800;
     margin-bottom: 1em;
+    letter-spacing: 1px;
+    font-size: 35px;
 }
 
 </style>

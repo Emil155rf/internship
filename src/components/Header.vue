@@ -89,9 +89,7 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
-    min-height: 95vh;
-    min-width: 600px;
-    width: 100%;
+
 }
 
 a {
@@ -122,13 +120,12 @@ a {
 
 
 .header-text {
-    position: relative;
-    top: 8em;
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
     color: hsla(0, 0%, 100%, .94);
+    margin: 10em 0 3em 0;
 
 }
 
@@ -138,7 +135,7 @@ a {
     height: auto;
     width: 100%;
     vertical-align: middle;
-    
+
 }
 
 .header-text p {
@@ -241,11 +238,7 @@ a {
 }
 
 
-
 @media screen and (max-width: 500px) {
-
-
-
-
+    
 }
 </style>

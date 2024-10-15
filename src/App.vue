@@ -65,10 +65,7 @@ export default {
 .intern-container {
   background-color: red;
   color: hsla(0, 0%, 100%, .94);
-  padding-top: 4em;
-  min-width: 600px;
-  width: 100%;
-  /* height: auto; */
+  padding-top: 4em; 
 
 }
 
