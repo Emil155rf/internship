@@ -48,7 +48,7 @@
             <div class="header-text">
                 <div class="header-title"><img src="../assets/images/D_Title_560x252_160424.webp" alt=""></div>
                 <p>Стажировка в Альфа-Банке для студентов со всей страны <br> Лучших возьмём на работу</p>
-                <button>Посмотреть стажировки</button>
+                <button id="lk-btn">Посмотреть стажировки</button>
             </div>
         </div>
     </div>

@@ -1,7 +1,6 @@
 # Vue-1
 
 This template should help get you started developing with Vue 3 in Vite.
-host - https://internforship.netlify.app
 
 ## Recommended IDE Setup
 

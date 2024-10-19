@@ -34,7 +34,7 @@ export default {
 }
 ul {
     margin: 0; 
-    padding: 0;
+    padding: 0 0;
 }
 h1 {
     font-family: 'Mac';
@@ -49,11 +49,8 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1em;
     padding: 20px 0;
-    /* width: 40em; */
-    /* border-top: 2px solid hsla(0, 0%, 100%, .94); */
-    /* border-bottom: 2px solid hsla(0, 0%, 100%, .94);  */
+    border-top: 2px solid hsla(0, 0%, 100%, .94);
 
 }
 
