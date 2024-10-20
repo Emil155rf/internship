@@ -82,6 +82,8 @@ export default {
 
 
 <style scoped>
+
+
 .header-main {
     background-image: url(../assets/images/D_MainBan_1280x588_160424.webp);
     background-position: center;

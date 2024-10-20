@@ -106,22 +106,22 @@ export default {
                 ],
             ],
             selectedDirection: 0
-        };
+        }
     },
     methods: {
         showInternships(index) {
-            this.selectedDirection = index;
+            this.selectedDirection = index
         }
     },
     created() {
-        this.selectedDirection = 0;
+        this.selectedDirection = 0
     },
     watch: {
         selectedDirection(newDirectionIndex) {
-            console.log("Selected Direction changed to:", newDirectionIndex);
+            console.log("Selected Direction changed to:", newDirectionIndex)
         }
     }
-};
+}
 </script>
 
 <style scoped>
