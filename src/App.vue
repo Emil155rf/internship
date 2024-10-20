@@ -55,8 +55,12 @@ export default {
       <SelectionList title="Будешь стажироваться в Альфа‑Банке от 3 месяцев" />
       <SelectionList title="Можешь работать от 20 часов в неделю" />
       <Stage />
-      <StageList title="Отклик" description="Выбери направление и заполни заявку" />
-
+      <div class="stage-num">
+        <StageList num="1" title="Отклик" description="Выбери направление и заполни заявку" />
+        <StageList num="2" title="Тестирование" description="Выполни небольшое тестовое задание" />
+        <StageList num="3" title="Собеседование" description="Пройди интервью с руководителем" />
+        <StageList num="4" title="Оффер" description="Ждём тебя в команде!" />
+      </div>
     </div>
   </div>
 
@@ -90,4 +94,11 @@ export default {
 .selection-container {
   padding: 4em 0 4em 0;
 }
+
+.stage-num {
+  display: flex;
+}
+
+
+
 </style>

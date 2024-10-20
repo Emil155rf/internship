@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 .stage {
-    padding: 3em 0;
+    padding: 5em 0 0 0;
 }
 
 h1 {
