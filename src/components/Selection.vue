@@ -8,8 +8,10 @@ export default {
 
 
 <template>
-    <div class="selection">
-        <h1>Мы подходим друг другу, если ты</h1>
+    <div class="container">
+        <div class="selection">
+            <h1>Мы подходим друг другу, если ты</h1>
+        </div>
     </div>
 
 

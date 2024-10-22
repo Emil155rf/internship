@@ -5,6 +5,38 @@
                 <div class="header-photo">
                     <img class="header-img" src="../assets/images/D_logo_white.svg" alt="">
                 </div>
+                <div class="bootstrap-canvas">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <i class="bi bi-list"></i>
+                    </button>
+
+                    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+                                Some text as placeholder. In real life you can have the elements you have chosen. Like,
+                                text, images, lists, etc.
+                            </div>
+                            <div class="dropdown mt-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown">
+                                    Dropdown button
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="header-row">
                     <ul class="sp">
                         <div class="dropdown">
@@ -82,8 +114,6 @@ export default {
 
 
 <style scoped>
-
-
 .header-main {
     background-image: url(../assets/images/D_MainBan_1280x588_160424.webp);
     background-position: center;
@@ -119,7 +149,20 @@ a {
 
 }
 
+.bootstrap-canvas {
+    display: none;
+}
 
+.btn-primary {
+    background: transparent;
+    border: none;
+    font-size: 34px;
+    position: relative;
+    bottom: 7px;
+}
+.btn-primary:focus {
+    background: transparent;
+}
 
 .header-text {
     display: flex;
@@ -240,7 +283,18 @@ a {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
+    .bootstrap-canvas {
+        display: block;
+    }
+    .header-row {
+        display: none;
+    }
+    .header-main {
+        background-position: -45em;
+    }
+
     
 }
+
 </style>

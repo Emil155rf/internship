@@ -8,8 +8,10 @@ export default {
 
 
 <template>
-    <div class="stage">
-        <h1>Этапы отбора</h1>
+    <div class="container">
+        <div class="stage">
+            <h1>Этапы отбора</h1>
+        </div>
     </div>
 
 
@@ -30,6 +32,4 @@ h1 {
     color: hsla(0, 0%, 100%, .94);
     font-size: 45px;
 }
-
-
 </style>

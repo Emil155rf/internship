@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="container">
         <div class="direction-div">
-            <button class="direction-button" v-for="(direction, index) in directions" :key="index" @click="showInternships(index)"
-                :class="{ active: selectedDirection === index }">
+            <button class="direction-button" v-for="(direction, index) in directions" :key="index"
+                @click="showInternships(index)" :class="{ active: selectedDirection === index }">
                 {{ direction.name }}
             </button>
         </div>
@@ -190,6 +190,7 @@ li {
 .intern-name {
     padding: 5px 0;
 }
+
 .intern-buttons {
     display: flex;
     justify-content: space-between;
@@ -217,6 +218,7 @@ li {
 .bi-info-circle-fill {
     color: hsla(0, 0%, 100%, .94);
 }
+
 .watch-intern-2 {
     background-color: transparent;
     font-size: 22px;
@@ -224,4 +226,38 @@ li {
     top: 3px;
 }
 
+@media screen and (max-width: 1200px) {
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 0;
+    }
+
+    .direction-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .direction-button {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .direction-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
 </style>

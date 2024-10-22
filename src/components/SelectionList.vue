@@ -11,13 +11,14 @@ export default {
 
 
 <template>
-
-    <div class="selection-list">
-        <ul>
-            <div class="list-2">
-                <h1>{{ title }}</h1>
-            </div>
-        </ul>
+    <div class="container">
+        <div class="selection-list">
+            <ul>
+                <div class="list-2">
+                    <h1>{{ title }}</h1>
+                </div>
+            </ul>
+        </div>
     </div>
 
 </template>
@@ -32,10 +33,12 @@ export default {
 
 
 }
+
 ul {
-    margin: 0; 
+    margin: 0;
     padding: 0 0;
 }
+
 h1 {
     font-family: 'Mac';
     font-weight: 800;

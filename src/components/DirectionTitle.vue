@@ -7,7 +7,9 @@ export default {
 </script>
 
 <template>
+    <div class="container">
         <h1>Направления</h1>
+    </div>
 
 
 
@@ -24,5 +26,12 @@ h1 {
     letter-spacing: 1px;
     font-size: 45px;
 
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+    }
+    
 }
 </style>

@@ -59,7 +59,7 @@ export default {
         <StageList num="1" title="Отклик" description="Выбери направление и заполни заявку" />
         <StageList num="2" title="Тестирование" description="Выполни небольшое тестовое задание" />
         <StageList num="3" title="Собеседование" description="Пройди интервью с руководителем" />
-        <StageList num="4" title="Оффер" description="Ждём тебя в команде!" />
+        <StageList num="4" title="Оффер" description="Мы приглашаем тебя и ждём в команде!" />
       </div>
     </div>
   </div>
@@ -83,8 +83,8 @@ export default {
 }
 
 .list-container {
-  padding: 4em 0 0 0;
-  height: 40em;
+  padding: 4em 0 5em 0;
+  min-height: 40em;
 }
 
 .selection-inner {
@@ -97,7 +97,37 @@ export default {
 
 .stage-num {
   display: flex;
+
 }
+
+@media screen and (max-width: 1200px) {
+  .stage-num {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+}
+
+@media screen and (max-width: 850px) {
+  .stage-num {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+
+@media screen and (max-width: 550px) {
+  .stage-num {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+}
+
 
 
 
